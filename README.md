@@ -26,10 +26,10 @@
 #### 如果没有在线源，将比内置的优先载入 
 #### 将下面文件，放在 tvbox_zog 目录里
 
-##### zoglive.txt         电视源地址(比zoglive.json优先) 【傻瓜模式的改电视源，只要修改这个文件】
+##### zoglive.txt         电视源地址(比zoglive.json优先) $\color{#ff0000}{【傻瓜模式的改电视源，只要修改这个文件】}$
 ##### zoglive.json       电视源地址
 ##### zogspider.jar     spider解析的jar文件
-##### zogtv.txt           配置文件  【高级模式的改源，只要修改这个文件】
+##### zogtv.txt           配置文件  $\color{#ff0000}{【高级模式的改源，只要修改这个文件】}$
 ##### isAdvance         可以为0字节文件。只检查文件是否存在。有则开启高级模式功能
 
 ### APK内置文件
