@@ -24,6 +24,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.github.tvbox.osc.R;
 import com.github.tvbox.osc.api.ApiConfig;
+import com.github.tvbox.osc.base.App;
 import com.github.tvbox.osc.base.BaseActivity;
 import com.github.tvbox.osc.base.BaseLazyFragment;
 import com.github.tvbox.osc.bean.AbsSortXml;
@@ -246,6 +247,41 @@ public class HomeActivity extends BaseActivity {
                     }
                 });
             }
+            else
+            {
+                //zog
+                ApiConfig.get().loadLocalJar(useCacheConfig,  new ApiConfig.LoadConfigCallback() {
+                    @Override
+                    public void success() {
+                        jarInitOk = true;
+                        mHandler.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (!useCacheConfig)
+                                    Toast.makeText(HomeActivity.this, "zogspider.jar加载成功", Toast.LENGTH_SHORT).show();
+                                initData();
+                            }
+                        }, 50);
+                    }
+
+                    @Override
+                    public void retry() {
+
+                    }
+
+                    @Override
+                    public void error(String msg) {
+                        jarInitOk = true;
+                        mHandler.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(HomeActivity.this, "zogspider.jar加载失败", Toast.LENGTH_SHORT).show();
+                                initData();
+                            }
+                        });
+                    }
+                });
+            }
             return;
         }
         ApiConfig.get().loadConfig(useCacheConfig, new ApiConfig.LoadConfigCallback() {
@@ -264,9 +300,10 @@ public class HomeActivity extends BaseActivity {
             @Override
             public void success() {
                 dataInitOk = true;
-                if (ApiConfig.get().getSpider().isEmpty()) {
-                    jarInitOk = true;
-                }
+                //zog
+//                if (ApiConfig.get().getSpider().isEmpty()) {
+//                    jarInitOk = true;
+//                }
                 mHandler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -291,47 +328,54 @@ public class HomeActivity extends BaseActivity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        if (dialog == null)
-                            dialog = new TipDialog(HomeActivity.this, msg, "重试", "取消", new TipDialog.OnListener() {
-                                @Override
-                                public void left() {
-                                    mHandler.post(new Runnable() {
-                                        @Override
-                                        public void run() {
-                                            initData();
-                                            dialog.hide();
-                                        }
-                                    });
-                                }
-
-                                @Override
-                                public void right() {
-                                    dataInitOk = true;
-                                    jarInitOk = true;
-                                    mHandler.post(new Runnable() {
-                                        @Override
-                                        public void run() {
-                                            initData();
-                                            dialog.hide();
-                                        }
-                                    });
-                                }
-
-                                @Override
-                                public void cancel() {
-                                    dataInitOk = true;
-                                    jarInitOk = true;
-                                    mHandler.post(new Runnable() {
-                                        @Override
-                                        public void run() {
-                                            initData();
-                                            dialog.hide();
-                                        }
-                                    });
-                                }
-                            });
-                        if (!dialog.isShowing())
-                            dialog.show();
+//                        if (dialog == null)
+//                        {
+//                            dialog = new TipDialog(HomeActivity.this, msg, "重试", "取消", new TipDialog.OnListener() {
+//                                @Override
+//                                public void left() {
+//                                    mHandler.post(new Runnable() {
+//                                        @Override
+//                                        public void run() {
+//                                            dialog.hide();
+//                                            initData();
+//                                        }
+//                                    });
+//                                }
+//
+//                                @Override
+//                                public void right() {
+//                                    dataInitOk = true;
+//                                    jarInitOk = true;
+//                                    mHandler.post(new Runnable() {
+//                                        @Override
+//                                        public void run() {
+//                                            dialog.hide();
+//                                            initData();
+//                                        }
+//                                    });
+//                                }
+//
+//                                @Override
+//                                public void cancel() {
+//                                    dataInitOk = true;
+//                                    jarInitOk = true;
+//                                    mHandler.post(new Runnable() {
+//                                        @Override
+//                                        public void run() {
+//                                            dialog.hide();
+//                                            initData();
+//                                        }
+//                                    });
+//                                }
+//                            });
+//                        }
+//                        if (!dialog.isShowing())
+//                            dialog.show();
+                        //zog
+                        dataInitOk = true;
+                        jarInitOk = true;
+                        Toast.makeText(HomeActivity.this, msg, Toast.LENGTH_SHORT).show();
+                        initData();
                     }
                 });
             }

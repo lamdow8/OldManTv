@@ -5,6 +5,7 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.IntEvaluator;
 import android.animation.ObjectAnimator;
 import android.os.Handler;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
@@ -37,6 +38,7 @@ import com.github.tvbox.osc.ui.dialog.LivePasswordDialog;
 import com.github.tvbox.osc.ui.tv.widget.ViewObj;
 import com.github.tvbox.osc.util.FastClickCheckUtil;
 import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.osc.util.LOG;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.lzy.okgo.OkGo;
@@ -296,6 +298,7 @@ public class LivePlayActivity extends BaseActivity {
     };
 
     private boolean playChannel(int channelGroupIndex, int liveChannelIndex, boolean changeSource) {
+        LOG.e("playChannel");
         if ((channelGroupIndex == currentChannelGroupIndex && liveChannelIndex == currentLiveChannelIndex && !changeSource)
                 || (changeSource && currentLiveChannelItem.getSourceNum() == 1)) {
             showChannelInfo();
@@ -328,12 +331,14 @@ public class LivePlayActivity extends BaseActivity {
     }
 
     public void playPreSource() {
+        LOG.e("playPreSource");
         if (!isCurrentLiveChannelValid()) return;
         currentLiveChannelItem.preSource();
         playChannel(currentChannelGroupIndex, currentLiveChannelIndex, true);
     }
 
     public void playNextSource() {
+    LOG.e("playNextSource");
         if (!isCurrentLiveChannelValid()) return;
         currentLiveChannelItem.nextSource();
         playChannel(currentChannelGroupIndex, currentLiveChannelIndex, true);
@@ -432,6 +437,7 @@ public class LivePlayActivity extends BaseActivity {
                     case VideoView.STATE_PREPARED:
                     case VideoView.STATE_BUFFERED:
                     case VideoView.STATE_PLAYING:
+                        LOG.e("playStateChanged currentLiveChangeSourceTimes=0");
                         currentLiveChangeSourceTimes = 0;
                         mHandler.removeCallbacks(mConnectTimeoutChangeSourceRun);
                         break;
@@ -450,6 +456,7 @@ public class LivePlayActivity extends BaseActivity {
 
             @Override
             public void changeSource(int direction) {
+                LOG.e("changeSource"+direction);
                 if (direction > 0)
                     playNextSource();
                 else
@@ -467,6 +474,7 @@ public class LivePlayActivity extends BaseActivity {
     private Runnable mConnectTimeoutChangeSourceRun = new Runnable() {
         @Override
         public void run() {
+            LOG.e("mConnectTimeoutChangeSourceRun currentLiveChangeSourceTimes"+currentLiveChangeSourceTimes);
             currentLiveChangeSourceTimes++;
             if (currentLiveChannelItem.getSourceNum() == currentLiveChangeSourceTimes) {
                 currentLiveChangeSourceTimes = 0;
@@ -741,12 +749,12 @@ public class LivePlayActivity extends BaseActivity {
                 boolean select = false;
                 switch (position) {
                     case 0:
-                        select = !Hawk.get(HawkConfig.LIVE_SHOW_TIME, false);
+                        select = !Hawk.get(HawkConfig.LIVE_SHOW_TIME, true);
                         Hawk.put(HawkConfig.LIVE_SHOW_TIME, select);
                         showTime();
                         break;
                     case 1:
-                        select = !Hawk.get(HawkConfig.LIVE_SHOW_NET_SPEED, false);
+                        select = !Hawk.get(HawkConfig.LIVE_SHOW_NET_SPEED, true);
                         Hawk.put(HawkConfig.LIVE_SHOW_NET_SPEED, select);
                         showNetSpeed();
                         break;
@@ -769,7 +777,7 @@ public class LivePlayActivity extends BaseActivity {
     private void initLiveChannelList() {
         List<LiveChannelGroup> list = ApiConfig.get().getChannelGroupList();
         if (list.isEmpty()) {
-            Toast.makeText(App.getInstance(), "频道列表为空", Toast.LENGTH_SHORT).show();
+            Toast.makeText(App.getInstance(), "频道列表为空1", Toast.LENGTH_SHORT).show();
             finish();
             return;
         }
@@ -787,6 +795,7 @@ public class LivePlayActivity extends BaseActivity {
     }
 
     public void loadProxyLives(String url) {
+        LOG.e("loadProxyLives:"+url);
         OkGo.<String>get(url).execute(new AbsCallback<String>() {
 
             @Override
@@ -797,10 +806,12 @@ public class LivePlayActivity extends BaseActivity {
             @Override
             public void onSuccess(Response<String> response) {
                 JsonArray livesArray = new Gson().fromJson(response.body(), JsonArray.class);
+                //zog 提前网上的json用于本地
+                ApiConfig.get().writeSD("loadProxyLives.json",response.body().getBytes());
                 ApiConfig.get().loadLives(livesArray);
                 List<LiveChannelGroup> list = ApiConfig.get().getChannelGroupList();
                 if (list.isEmpty()) {
-                    Toast.makeText(App.getInstance(), "频道列表为空", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(App.getInstance(), "频道列表为空2", Toast.LENGTH_SHORT).show();
                     finish();
                     return;
                 }
@@ -884,8 +895,8 @@ public class LivePlayActivity extends BaseActivity {
             liveSettingGroupList.add(liveSettingGroup);
         }
         liveSettingGroupList.get(3).getLiveSettingItems().get(Hawk.get(HawkConfig.LIVE_CONNECT_TIMEOUT, 1)).setItemSelected(true);
-        liveSettingGroupList.get(4).getLiveSettingItems().get(0).setItemSelected(Hawk.get(HawkConfig.LIVE_SHOW_TIME, false));
-        liveSettingGroupList.get(4).getLiveSettingItems().get(1).setItemSelected(Hawk.get(HawkConfig.LIVE_SHOW_NET_SPEED, false));
+        liveSettingGroupList.get(4).getLiveSettingItems().get(0).setItemSelected(Hawk.get(HawkConfig.LIVE_SHOW_TIME, true));
+        liveSettingGroupList.get(4).getLiveSettingItems().get(1).setItemSelected(Hawk.get(HawkConfig.LIVE_SHOW_NET_SPEED, true));
         liveSettingGroupList.get(4).getLiveSettingItems().get(2).setItemSelected(Hawk.get(HawkConfig.LIVE_CHANNEL_REVERSE, false));
         liveSettingGroupList.get(4).getLiveSettingItems().get(3).setItemSelected(Hawk.get(HawkConfig.LIVE_CROSS_GROUP, false));
     }
@@ -903,7 +914,7 @@ public class LivePlayActivity extends BaseActivity {
     }
 
     void showTime() {
-        if (Hawk.get(HawkConfig.LIVE_SHOW_TIME, false)) {
+        if (Hawk.get(HawkConfig.LIVE_SHOW_TIME, true)) {
             mHandler.post(mUpdateTimeRun);
             tvTime.setVisibility(View.VISIBLE);
         } else {
@@ -923,7 +934,7 @@ public class LivePlayActivity extends BaseActivity {
     };
 
     private void showNetSpeed() {
-        if (Hawk.get(HawkConfig.LIVE_SHOW_NET_SPEED, false)) {
+        if (Hawk.get(HawkConfig.LIVE_SHOW_NET_SPEED, true)) {
             mHandler.post(mUpdateNetSpeedRun);
             tvNetSpeed.setVisibility(View.VISIBLE);
         } else {

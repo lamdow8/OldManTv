@@ -42,6 +42,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import static android.view.View.GONE;
+
 /**
  * @author pj567
  * @date :2021/3/9
@@ -159,6 +161,18 @@ public class UserFragment extends BaseLazyFragment implements View.OnClickListen
     }
 
     private void initHomeHotVod(HomeHotVodAdapter adapter) {
+        //zog
+        if(!ApiConfig.get().isZogAdvanceMode())
+        {
+            //屏蔽没用的按钮，直接跳到电视
+            tvSearch.setVisibility(GONE);
+            tvCollect.setVisibility(GONE);
+            tvPush.setVisibility(GONE);
+            tvHistory.setVisibility(GONE);
+            jumpActivity(LivePlayActivity.class);
+            return;
+        }
+
         if (Hawk.get(HawkConfig.HOME_REC, 0) == 1) {
             if (homeSourceRec != null) {
                 adapter.setNewData(homeSourceRec);

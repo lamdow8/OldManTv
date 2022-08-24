@@ -2,6 +2,7 @@ package com.github.tvbox.osc.api;
 
 import android.app.Activity;
 import android.net.Uri;
+import android.os.Environment;
 import android.text.TextUtils;
 import android.util.Base64;
 
@@ -17,6 +18,7 @@ import com.github.tvbox.osc.server.ControlManager;
 import com.github.tvbox.osc.util.AdBlocker;
 import com.github.tvbox.osc.util.DefaultConfig;
 import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.osc.util.LOG;
 import com.github.tvbox.osc.util.MD5;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
@@ -27,18 +29,28 @@ import com.lzy.okgo.callback.AbsCallback;
 import com.lzy.okgo.model.Response;
 import com.orhanobut.hawk.Hawk;
 
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 /**
  * @author pj567
@@ -78,10 +90,44 @@ public class ApiConfig {
         return instance;
     }
 
+    //zog
+    public void loadLocalConfig(boolean useCache, LoadConfigCallback callback) {
+        String my_txt ="";
+
+        String root = Environment.getExternalStorageDirectory().getAbsolutePath();
+        File self = new File(root + "/tvbox_zog/zogtv.txt" );
+        File selfDir = self.getParentFile();
+        if (!selfDir.exists())
+            selfDir.mkdirs();
+        if (self.exists())
+        {
+            //优先用SD卡的/tvbox_zog/zogtv.txt
+            my_txt = self.getAbsolutePath();
+        }
+        else
+        {
+            //不然用内置的/asset/zogtv.txt
+            my_txt = assetCopy(useCache,"zogtv.txt");
+            self = new File(my_txt);
+        }
+        //最差的时候用在线的loadJar
+        LOG.e("loadLocalConfig path=" + my_txt);
+        try {
+            parseJson(my_txt, self);
+            callback.success();
+            return;
+        } catch (Throwable th) {
+            th.printStackTrace();
+            callback.error("-1");
+        }
+    }
+
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
         String apiUrl = Hawk.get(HawkConfig.API_URL, "");
         if (apiUrl.isEmpty()) {
-            callback.error("-1");
+            //zog
+            loadLocalConfig(useCache,callback);
+            //callback.error("-1");
             return;
         }
         File cache = new File(App.getInstance().getFilesDir().getAbsolutePath() + "/" + MD5.encode(apiUrl));
@@ -122,6 +168,7 @@ public class ApiConfig {
                         } catch (Throwable th) {
                             th.printStackTrace();
                             callback.error("解析配置失败");
+                            return;
                         }
                     }
 
@@ -154,7 +201,244 @@ public class ApiConfig {
                     }
                 });
     }
+    //zog
+    public boolean isZogAdvanceMode() {
 
+        String root = Environment.getExternalStorageDirectory().getAbsolutePath();
+        String cachePath = root + "/tvbox_zog/"+"isAdvance" ;
+        File cache = new File(cachePath);
+        File cacheDir = cache.getParentFile();
+        if (!cacheDir.exists())
+            cacheDir.mkdirs();
+        if (cache.exists())
+        {
+            return true;
+        }
+        return false;
+    }
+    //zog
+    public String writeSD(String name,byte[] buffer) {
+
+        String root = Environment.getExternalStorageDirectory().getAbsolutePath();
+        String cachePath = root + "/tvbox_zog/"+name ;
+        File cache = new File(cachePath);
+        File cacheDir = cache.getParentFile();
+        if (!cacheDir.exists())
+            cacheDir.mkdirs();
+        if (cache.exists())
+        {
+            cache.delete();
+        }
+        LOG.e("writeSD to path=" + cachePath);
+        try {
+            FileOutputStream fos = new FileOutputStream(cache);
+            fos.write(buffer);
+            fos.flush();
+            fos.close();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return cachePath;
+    }
+    //zog
+    public boolean loadLocalLiveJson() {
+        String my_json ="";
+
+        String root = Environment.getExternalStorageDirectory().getAbsolutePath();
+        File self = new File(root + "/tvbox_zog/zoglive.json" );
+        File selfDir = self.getParentFile();
+        if (!selfDir.exists())
+            selfDir.mkdirs();
+        ByteArrayOutputStream bos =new ByteArrayOutputStream();
+        if (self.exists())
+        {
+            //优先用SD卡的/tvbox_zog/zoglive.json
+            LOG.e("loadLocalLiveJson path=" + self.getAbsolutePath());
+            try {
+                FileInputStream fis = new FileInputStream(self);
+                byte[] buffer = new byte[10240];
+                int byteCount;
+                while ((byteCount = fis.read(buffer)) != -1) {
+                    bos.write(buffer, 0, byteCount);
+                }
+                bos.flush();
+                bos.close();
+                fis.close();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+                return  false;
+            } catch (IOException e) {
+                e.printStackTrace();
+                return  false;
+            }
+        }
+        else
+        {
+            //不然用内置的/asset/zoglive.json
+            LOG.e("loadLocalLiveJson path=getAssets " + "zoglive.json");
+            try {
+                InputStream fis = App.getInstance().getAssets().open("zoglive.json");
+                byte[] buffer = new byte[10240];
+                int byteCount;
+                while ((byteCount = fis.read(buffer)) != -1) {
+                    bos.write(buffer, 0, byteCount);
+                }
+                bos.flush();
+                bos.close();
+                fis.close();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+                return  false;
+            } catch (IOException e) {
+                e.printStackTrace();
+                return  false;
+            }
+        }
+        //最差的时候用在线的loadJar
+        JsonArray livesArray = new Gson().fromJson(bos.toString(), JsonArray.class);
+        loadLives(livesArray);
+        return  true;
+    }
+
+    //zog
+    public boolean loadLocalLiveTxt() {
+        String my_txt ="";
+
+        String root = Environment.getExternalStorageDirectory().getAbsolutePath();
+        File self = new File(root + "/tvbox_zog/zoglive.txt" );
+        File selfDir = self.getParentFile();
+        if (!selfDir.exists())
+            selfDir.mkdirs();
+        ByteArrayOutputStream bos =new ByteArrayOutputStream();
+        if (self.exists())
+        {
+            //优先用SD卡的/tvbox_zog/zoglive.txt
+            LOG.e("loadLocalLiveTxt path=" + self.getAbsolutePath());
+            try {
+                FileInputStream fis = new FileInputStream(self);
+                byte[] buffer = new byte[10240];
+                int byteCount;
+                while ((byteCount = fis.read(buffer)) != -1) {
+                    bos.write(buffer, 0, byteCount);
+                }
+                bos.flush();
+                bos.close();
+                fis.close();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+                return  false;
+            } catch (IOException e) {
+                e.printStackTrace();
+                return  false;
+            }
+        }
+        else
+        {
+            //不然用内置的/asset/zoglive.txt
+            LOG.e("loadLocalLiveTxt path=getAssets " + "zoglive.txt");
+            try {
+                InputStream fis = App.getInstance().getAssets().open("zoglive.txt");
+                byte[] buffer = new byte[10240];
+                int byteCount;
+                while ((byteCount = fis.read(buffer)) != -1) {
+                    bos.write(buffer, 0, byteCount);
+                }
+                bos.flush();
+                bos.close();
+                fis.close();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+                return  false;
+            } catch (IOException e) {
+                e.printStackTrace();
+                return  false;
+            }
+        }
+
+        String json = live2json(bos.toString());
+        //最差的时候用在线的loadJar
+        JsonArray livesArray = new Gson().fromJson(json, JsonArray.class);
+        loadLives(livesArray);
+        return  true;
+    }
+
+    //zog first load txt
+    public void loadLocalLive() {
+        if (!loadLocalLiveTxt()) {
+            loadLocalLiveJson();
+        }
+    }
+    //zog
+    public String assetCopy(boolean useCache,String assetname) {
+
+        String cachePath=App.getInstance().getFilesDir().getAbsolutePath() + "/"+assetname;
+        File cache = new File(cachePath);
+        File cacheDir = cache.getParentFile();
+        if (!cacheDir.exists())
+            cacheDir.mkdirs();
+        if (cache.exists())
+        {
+            if(useCache)
+            {
+                return cachePath;
+            }
+            else
+            {
+                cache.delete();
+            }
+        }
+        LOG.e("assetCopy to path=" + cachePath);
+        try {
+            InputStream fis = App.getInstance().getAssets().open(assetname);
+            FileOutputStream fos = new FileOutputStream(cache);
+
+            byte[] buffer = new byte[10240];
+            int byteCount;
+            while ((byteCount = fis.read(buffer)) != -1) {
+                fos.write(buffer, 0, byteCount);
+            }
+            fos.flush();
+
+            fis.close();
+            fos.close();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return cachePath;
+    }
+    //zog
+    public void loadLocalJar(boolean useCache,LoadConfigCallback callback) {
+        String my_spider ="";
+
+        String root = Environment.getExternalStorageDirectory().getAbsolutePath();
+        File self = new File(root + "/tvbox_zog/zogspider.jar" );
+        File selfDir = self.getParentFile();
+        if (!selfDir.exists())
+            selfDir.mkdirs();
+        if (self.exists())
+        {
+            //优先用SD卡的/tvbox_zog/zogspider.jar
+             my_spider = self.getAbsolutePath();
+        }
+        else
+        {
+            //不然用内置的/asset/zogspider.jar
+             my_spider = assetCopy(useCache,"zogspider.jar");
+        }
+        //最差的时候用在线的loadJar
+        LOG.e("loadLocalJar path=" + my_spider);
+        if (jarLoader.load(my_spider)) {
+            callback.success();
+        } else {
+            callback.error("");
+        }
+    }
 
     public void loadJar(boolean useCache, String spider, LoadConfigCallback callback) {
         String[] urls = spider.split(";md5;");
@@ -302,7 +586,16 @@ public class ApiConfig {
                 liveChannelGroup.setGroupName(url);
                 liveChannelGroupList.add(liveChannelGroup);
             } else {
-                loadLives(infoJson.get("lives").getAsJsonArray());
+                //zog
+                index = lives.indexOf("use_zog_local");
+                if (index != -1)
+                {
+                    loadLocalLive();
+                }
+                else
+                {
+                    loadLives(infoJson.get("lives").getAsJsonArray());
+                }
             }
         } catch (Throwable th) {
             th.printStackTrace();
@@ -375,7 +668,8 @@ public class ApiConfig {
                     if (splitText.length > 1)
                         sourceNames.add(splitText[1]);
                     else
-                        sourceNames.add("源" + Integer.toString(sourceIndex));
+                        //sourceNames.add("源" + Integer.toString(sourceIndex)); //zog
+                        sourceNames.add("");
                     sourceIndex++;
                 }
                 liveChannelItem.setChannelSourceNames(sourceNames);
@@ -494,4 +788,111 @@ public class ApiConfig {
         String fix = lanLink.substring(0, lanLink.indexOf("/file/") + 6);
         return content.replace("clan://", fix);
     }
+
+
+    //zog :from CatVodTVSpider project: TxtSubscribe class
+    public  void TxtSubscribe_parse(LinkedHashMap<String, LinkedHashMap<String, ArrayList<String>>> allLives, String txt) {
+        try {
+            BufferedReader br = new BufferedReader(new StringReader(txt));
+            String line = br.readLine();
+            LinkedHashMap<String, ArrayList<String>> noGroup = new LinkedHashMap<>();
+            LinkedHashMap<String, ArrayList<String>> groupLives = noGroup;
+            while (line != null) {
+                if (line.trim().isEmpty()) {
+                    line = br.readLine();
+                    continue;
+                }
+                String[] lineInfo = line.split(",");
+                if (lineInfo.length < 2) {
+                    line = br.readLine();
+                    continue;
+                }
+                if (line.contains("#genre#")) {
+                    String group = lineInfo[0].trim();
+                    if (!allLives.containsKey(group)) {
+                        groupLives = new LinkedHashMap<>();
+                        allLives.put(group, groupLives);
+                    } else {
+                        groupLives = allLives.get(group);
+                    }
+                } else {
+                    String title = lineInfo[0].trim();
+                    String[] urlMix = lineInfo[1].trim().split("#");
+                    for (int j = 0; j < urlMix.length; j++) {
+                        String url = urlMix[j].trim();
+                        if (url.isEmpty())
+                            continue;
+                        if (url.startsWith("http") || url.startsWith("rtsp") || url.startsWith("rtmp")) {
+                            ArrayList<String> urls = null;
+                            if (!groupLives.containsKey(title)) {
+                                urls = new ArrayList<>();
+                                groupLives.put(title, urls);
+                            } else {
+                                urls = groupLives.get(title);
+                            }
+                            if (!urls.contains(url))
+                                urls.add(url);
+                        } else {
+                            // SpiderDebug.log("Skip " + url);
+                        }
+                    }
+                }
+                line = br.readLine();
+            }
+            br.close();
+            if (!noGroup.isEmpty()) {
+                allLives.put("未分组", noGroup);
+            }
+        } catch (Throwable th) {
+
+        }
+    }
+
+    //zog :from CatVodTVSpider project: TxtSubscribe class
+    public static String TxtSubscribe_live2Json(LinkedHashMap<String, LinkedHashMap<String, ArrayList<String>>> lives) {
+        JSONArray groups = new JSONArray();
+        Iterator<String> groupKeys = lives.keySet().iterator();
+        while (groupKeys.hasNext()) {
+            String group = groupKeys.next();
+            JSONArray channels = new JSONArray();
+            LinkedHashMap<String, ArrayList<String>> allChannel = lives.get(group);
+            if (allChannel.isEmpty())
+                continue;
+            Iterator<String> channelKeys = allChannel.keySet().iterator();
+            while (channelKeys.hasNext()) {
+                String channel = channelKeys.next();
+                ArrayList<String> allUrls = allChannel.get(channel);
+                if (allUrls.isEmpty())
+                    continue;
+                JSONArray urls = new JSONArray();
+                for (int i = 0; i < allUrls.size(); i++) {
+                    urls.put(allUrls.get(i));
+                }
+                JSONObject newChannel = new JSONObject();
+                try {
+                    newChannel.put("name", channel);
+                    newChannel.put("urls", urls);
+                } catch (JSONException e) {
+                }
+                channels.put(newChannel);
+            }
+            JSONObject newGroup = new JSONObject();
+            try {
+                newGroup.put("group", group);
+                newGroup.put("channels", channels);
+            } catch (JSONException e) {
+            }
+            groups.put(newGroup);
+        }
+        return groups.toString();
+    }
+
+    //zog :from CatVodTVSpider project: TxtSubscribe class
+    public String live2json(String txt)
+    {
+        LinkedHashMap<String, LinkedHashMap<String, ArrayList<String>>> allLives = new LinkedHashMap<>();
+        TxtSubscribe_parse(allLives, txt);
+        return TxtSubscribe_live2Json(allLives);
+    }
+
 }
