@@ -1,5 +1,13 @@
 # OldManTv
-老人电视
+老人电视(傻瓜操作，无广告)
+
+魔改自 
+
+https://github.com/CatVodTVOfficial/TVBoxOSC
+
+https://github.com/CatVodTVOfficial/CatVodTVSpider
+
+https://github.com/CatVodTVOfficial/CatVodTVJsonEditor
 
 # 目录说明
 
@@ -88,8 +96,4 @@ https://github.com/ichenc/tvbox
 
 ### EPG电视节目表
 http://epg.51zmt.top:8000/
-
-
-
-
 
