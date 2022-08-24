@@ -203,18 +203,25 @@ public class ApiConfig {
     }
     //zog
     public boolean isZogAdvanceMode() {
-
-        String root = Environment.getExternalStorageDirectory().getAbsolutePath();
-        String cachePath = root + "/tvbox_zog/"+"isAdvance" ;
-        File cache = new File(cachePath);
-        File cacheDir = cache.getParentFile();
-        if (!cacheDir.exists())
-            cacheDir.mkdirs();
-        if (cache.exists())
+        //用来切换是否傻瓜模式的编译
+        if(false)
         {
             return true;
         }
-        return false;
+        else
+        {
+            String root = Environment.getExternalStorageDirectory().getAbsolutePath();
+            String cachePath = root + "/tvbox_zog/"+"isAdvance" ;
+            File cache = new File(cachePath);
+            File cacheDir = cache.getParentFile();
+            if (!cacheDir.exists())
+                cacheDir.mkdirs();
+            if (cache.exists())
+            {
+                return true;
+            }
+            return false;
+        }
     }
     //zog
     public String writeSD(String name,byte[] buffer) {

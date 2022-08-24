@@ -1,0 +1,3141 @@
+[
+    {
+        "group": "央视频道",
+        "channels": [
+            {
+                "name": "CCTV-1",
+                "urls": [
+                    "http://117.148.179.155/PLTV/88888888/224/3221231468/index.m3u8",
+                    "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230242/index.m3u8",
+                    "http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225618/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225642/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-2",
+                "urls": [
+                    "http://117.148.179.147/PLTV/88888888/224/3221231678/index.m3u8",
+                    "http://39.135.138.60:18890/PLTV/88888910/224/3221225619/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225619/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225643/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-3",
+                "urls": [
+                    "http://117.148.179.183/PLTV/88888888/224/3221231682/index.m3u8",
+                    "http://39.135.138.60:18890/PLTV/88888910/224/3221225647/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225647/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/624878271",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225634/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-4",
+                "urls": [
+                    "http://117.148.179.182/PLTV/88888888/224/3221231726/index.m3u8",
+                    "http://117.148.179.162/PLTV/88888888/224/3221231615/index.m3u8",
+                    "http://117.148.179.160/PLTV/88888888/224/3221231654/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225621/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-5",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/641886683",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225633/index.m3u8"
+                ]
+            }, 
+            {
+                "name": "CCTV-6",
+                "urls": [
+                    "http://39.135.138.59:18890/PLTV/88888910/224/3221225650/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/624878396",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225650/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225632/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-7",
+                "urls": [
+                    "http://117.148.179.160/PLTV/88888888/224/3221231633/index.m3u8",
+                    "http://39.135.138.60:18890/PLTV/88888910/224/3221225624/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/673168121",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225624/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225644/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-8",
+                "urls": [
+                    "http://117.148.179.160/PLTV/88888888/224/3221231694/index.m3u8",
+                    "http://39.135.138.60:18890/PLTV/88888910/224/3221225635/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225635/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/624878356",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225631/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-9",
+                "urls": [
+                    "http://117.148.179.162/PLTV/88888888/224/3221231697/index.m3u8",
+                    "http://39.135.138.59:18890/PLTV/88888910/224/3221225626/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/673168140",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225626/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225646/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-10",
+                "urls": [
+                    "http://117.148.179.175/PLTV/88888888/224/3221231666/index.m3u8",
+                    "http://39.135.138.59:18890/PLTV/88888910/224/3221225627/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/624878405",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225627/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225636/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-11",
+                "urls": [
+                    "http://117.148.179.164/PLTV/88888888/224/3221231711/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225628/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-12",
+                "urls": [
+                    "http://117.148.179.150/PLTV/88888888/224/3221231660/index.m3u8",
+                    "http://39.135.138.59:18890/PLTV/88888910/224/3221225629/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/673168185",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225629/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225637/index.m3u8"
+                ]
+            },
+            {
+                "name": "CGTV-12",
+                "urls": [
+                    "http://tv.jthn.cn/hl/PLTV/88888888/22014235/16s.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-13",
+                "urls": [
+                    "http://39.135.138.60:18890/PLTV/88888910/224/3221225638/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225638/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-14",
+                "urls": [
+                    "http://117.148.179.182/PLTV/88888888/224/3221231648/index.m3u8",
+                    "http://39.134.66.66/PLTV/88888888/224/3221225674/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225639/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/624878440",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225640/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-15",
+                "urls": [
+                    "http://117.148.179.169/PLTV/88888888/224/3221231693/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/673168223",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225641/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-16",
+                "urls": [
+                    "http://117.148.179.157/PLTV/88888888/224/3221233392/index.m3u8",
+                    "http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8",
+                    "http://117.148.179.157/PLTV/88888888/224/3221233403/index.m3u8",
+                    "http://117.148.179.157/PLTV/88888888/224/3221233409/index.m3u8",
+                    "http://117.148.179.157/PLTV/88888888/224/3221233406/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-17",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225908/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/673168256"
+                ]
+            },
+            {
+                "name": "CCTV-5+",
+                "urls": [
+                    "http://117.148.179.136/PLTV/88888888/224/3221231459/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225649/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225706/index.m3u8"
+                ]
+            },
+            {
+                "name": "中国天气",
+                "urls": [
+                    "http://140.207.241.2:8080/live/program/live/zgqx/1300000/mnf.m3u8"
+                ]
+            },
+            {
+                "name": "清华大学电视台",
+                "urls": [
+                    "http://live.cic.tsinghua.edu.cn/hls/tsinghuatv.m3u8"
+                ]
+            },
+            {
+                "name": "CNC中文",
+                "urls": [
+                    "http://39.135.138.59:18890/PLTV/88888910/224/3221225694/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225694/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNC英文",
+                "urls": [
+                    "http://39.135.138.59:18890/PLTV/88888910/224/3221225693/index.m3u8",
+                    "http://source07.v.news.cn/live/CNC_EN/playlist.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225693/index.m3u8"
+                ]
+            },
+            {
+                "name": "CGTN",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/609017205"
+                ]
+            },
+            {
+                "name": "CGTN纪录",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/609006487"
+                ]
+            },
+            {
+                "name": "CGTN阿拉伯语",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/609154345"
+                ]
+            },
+            {
+                "name": "CGTN法语",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/609006476"
+                ]
+            },
+            {
+                "name": "CGTN西班牙语",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/609006450"
+                ]
+            },
+            {
+                "name": "CGTN俄语",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/609006446"
+                ]
+            },
+            {
+                "name": "CETV-1",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/649531734",
+                    "http://111.63.117.13:6060/030000001000/G_CETV-1/G_CETV-1.m3u8",
+                    "http://117.148.179.156/PLTV/88888888/224/3221231714/index.m3u8",
+                    "http://117.148.179.149/PLTV/88888888/224/3221231552/index.m3u8"
+                ]
+            },
+            {
+                "name": "CETV-2",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/649532169",
+                    "http://111.63.117.13:6060/030000001000/G_CETV-2/G_CETV-2.m3u8",
+                    "http://117.148.179.162/PLTV/88888888/224/3221231607/index.m3u8"
+                ]
+            },
+            {
+                "name": "CETV-3",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/649531756",
+                    "http://117.148.179.136/PLTV/88888888/224/3221231543/index.m3u8"
+                ]
+            },
+            {
+                "name": "CETV-4",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/649531725",
+                    "http://111.63.117.13:6060/030000001000/G_CETV-4/G_CETV-4.m3u8",
+                    "http://117.148.179.155/PLTV/88888888/224/3221231613/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-怀旧剧场",
+                "urls": [
+                    "http://117.148.179.158/PLTV/88888888/224/3221231544/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-第一剧场",
+                "urls": [
+                    "http://117.148.179.172/PLTV/88888888/224/3221231540/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-风云剧场",
+                "urls": [
+                    "http://117.148.179.162/PLTV/88888888/224/3221231604/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-风云足球",
+                "urls": [
+                    "http://117.148.179.137/PLTV/88888888/224/3221231547/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-世界地理",
+                "urls": [
+                    "http://117.148.179.156/PLTV/88888888/224/3221231537/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-女性时尚",
+                "urls": [
+                    "http://117.148.179.167/PLTV/88888888/224/3221231598/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-央视台球",
+                "urls": [
+                    "http://117.148.179.167/PLTV/88888888/224/3221231616/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-高尔夫网球",
+                "urls": [
+                    "http://117.148.179.160/PLTV/88888888/224/3221231619/index.m3u8"
+                ]
+            },
+            {
+                "name": "CCTV-央视文化精品",
+                "urls": [
+                    "http://117.148.179.147/PLTV/88888888/224/3221231561/index.m3u8"
+                ]
+            }
+        ]
+    },
+    {
+        "group": "地方卫视",
+        "channels": [
+            {
+                "name": "浙江卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225744/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8"
+                ]
+            },
+            {
+                "name": "江苏卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225743/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225702/index.m3u8"
+                ]
+            },
+            {
+                "name": "湖南卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225745/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225704/index.m3u8"
+                ]
+            },
+            {
+                "name": "东方卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225658/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225659/index.m3u8"
+                ]
+            },
+            {
+                "name": "上海纪实",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225654/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225655/index.m3u8"
+                ]
+            },
+            {
+                "name": "北京卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225674/index.m3u8"
+                ]
+            },
+            {
+                "name": "北京纪实",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225675/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225676/index.m3u8"
+                ]
+            },
+            {
+                "name": "深圳卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225741/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8"
+                ]
+            },
+            {
+                "name": "广东卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225742/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225701/index.m3u8"
+                ]
+            },
+            {
+                "name": "天津卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225739/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8"
+                ]
+            },
+            {
+                "name": "安徽卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225737/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225691/index.m3u8"
+                ]
+            },
+            {
+                "name": "山东卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225738/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8"
+                ]
+            },
+            {
+                "name": "江西卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225746/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8"
+                ]
+            },
+            {
+                "name": "湖北卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225740/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225699/index.m3u8"
+                ]
+            },
+            {
+                "name": "重庆卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225734/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225692/index.m3u8"
+                ]
+            },
+            {
+                "name": "黑龙江卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225736/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225690/index.m3u8"
+                ]
+            },
+            {
+                "name": "辽宁卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225735/index.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225696/index.m3u8"
+                ]
+            },
+            {
+                "name": "东南卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225657/index.m3u8"
+                ]
+            },
+            {
+                "name": "河北卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225732/index.m3u8"
+                ]
+            },
+            {
+                "name": "四川卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8"
+                ]
+            },
+            {
+                "name": "山西卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225730/index.m3u8"
+                ]
+            },
+            {
+                "name": "广西卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225731/index.m3u8"
+                ]
+            },
+            {
+                "name": "吉林卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225680/index.m3u8"
+                ]
+            },
+            {
+                "name": "云南卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225664/index.m3u8"
+                ]
+            },
+            {
+                "name": "陕西卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225729/index.m3u8"
+                ]
+            },
+            {
+                "name": "青海卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8"
+                ]
+            },
+            {
+                "name": "宁夏卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8"
+                ]
+            },
+            {
+                "name": "甘肃卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225724/index.m3u8"
+                ]
+            },
+            {
+                "name": "海南卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225722/index.m3u8"
+                ]
+            },
+            {
+                "name": "贵州卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225728/index.m3u8"
+                ]
+            },
+            {
+                "name": "内蒙古卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225667/index.m3u8"
+                ]
+            },
+            {
+                "name": "新疆卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225725/index.m3u8"
+                ]
+            },
+            {
+                "name": "西藏卫视",
+                "urls": [
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225723/index.m3u8"
+                ]
+            },
+            {
+                "name": "五星体育",
+                "urls": [
+                    "http://111.40.196.25/PLTV/88888888/224/3221225503/index.m3u8"
+                ]
+            }
+        ]
+    },
+    {
+        "group": "少儿频道",
+        "channels": [
+            {
+                "name": "黑莓电竞",
+                "urls": [
+                    "http://39.134.66.66/PLTV/88888888/224/3221225559/index.m3u8"
+                ]
+            },
+            {
+                "name": "哈哈炫动",
+                "urls": [
+                    "http://39.135.138.59:18890/PLTV/88888910/224/3221225720/index.m3u8",
+                    "http://223.110.245.163/ott.js.chinamobile.com/PLTV/3/224/3221226388/index.m3u8",
+                    "http://iptv.tvfix.org/hls/hhxdhd.m3u8"
+                ]
+            },
+            {
+                "name": "嘉佳卡通",
+                "urls": [
+                    "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226193/index.m3u8"
+                ]
+            },
+            {
+                "name": "优漫卡通",
+                "urls": [
+                    "http://183.207.249.15:80/PLTV/4/224/3221225933/index.m3u8?"
+                ]
+            },
+            {
+                "name": "樱桃小丸子",
+                "urls": [
+                    "http://106.53.212.251/daili/bili.php?id=11765640"
+                ]
+            },
+            {
+                "name": "蜡笔小新",
+                "urls": [
+                    "http://106.53.212.251/daili/bili.php?id=11579951"
+                ]
+            },
+            {
+                "name": "猫和老鼠",
+                "urls": [
+                    "http://106.53.212.251/daili/bili.php?id=22905626",
+                    "http://118.26.120.23:55336/tslive/c52_lb_83_600_t10/c52_lb_83_600_t10.m3u8?key=0b292c335e5837e94e2f0ba45f46717fa",
+                    "http://121.51.14.14/tx.hls.huya.com/src/1423782038-1423782038-6115097289842229248-2847687532-10057-A-0-1.m3u8"
+                ]
+            },
+            {
+                "name": "小猪佩奇",
+                "urls": [
+                    "http://baiducdncmn2.inter.iqiyi.com/tslive/c53_lb_78_1080P_t10/c53_lb_78_1080P_t10.m3u8"
+                ]
+            },
+            {
+                "name": "开心汉堡店",
+                "urls": [
+                    "http://106.53.212.251/daili/bili.php?id=2308015"
+                ]
+            },
+            {
+                "name": "童年经典",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c57_lb_211_600_t10/c57_lb_211_600_t10.m3u8?key=0f2a06793124310bce6ba95fc0ac76131"
+                ]
+            },
+            {
+                "name": "玩具乐园",
+                "urls": [
+                    "http://118.26.120.37:55336/tslive/c54_lb_175_600_t10/c54_lb_175_600_t10.m3u8?key=051d9240247766709d65dde3fcd5cd7bb"
+                ]
+            },
+            {
+                "name": "怀旧动画",
+                "urls": [
+                    "http://118.26.120.36:55336/tslive/c53_lb_86_600_t10/c53_lb_86_600_t10.m3u8?key=0b292c335e5837e943a226d3c381f872a"
+                ]
+            },
+            {
+                "name": "巧虎",
+                "urls": [
+                    "http://118.26.120.37:55336/tslive/c55_lb_135_600_t10/c55_lb_135_600_t10.m3u8?key=0f2a06793124310bcefefdf4e48b17f9a"
+                ]
+            },
+            {
+                "name": "小猪佩寄",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c53_lb_78_600_t10/c53_lb_78_600_t10.m3u8?key=0b292c335e5837e94a815c2c45ffe0057"
+                ]
+            },
+            {
+                "name": "名贞探柯南",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c54_lb_157_600_t10/c54_lb_157_600_t10.m3u8?key=0b292c335e5837e948e91dd5d11efa525"
+                ]
+            },
+            {
+                "name": "动画电影",
+                "urls": [
+                    "http://118.26.120.36:55336/tslive/c51_lb_118_600_t10/c51_lb_118_600_t10.m3u8?key=0b292c335e5837e94f25985f7c35b1efe"
+                ]
+            },
+            {
+                "name": "动画小天地",
+                "urls": [
+                    "http://118.26.120.34:55336/tslive/c55_lb_139_600_t10/c55_lb_139_600_t10.m3u8?key=0f2a06793124310bc475d77d809f3ab51"
+                ]
+            },
+            {
+                "name": "兔小贝尔歌",
+                "urls": [
+                    "http://118.26.120.22:55336/tslive/c54_lb_136_600_t10/c54_lb_136_600_t10.m3u8?key=0b292c335e5837e94ae056154862a578b"
+                ]
+            },
+            {
+                "name": "儿童乐园",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c57_lb_215_600_t10/c57_lb_215_600_t10.m3u8?key=0b292c335e5837e943410c2bfa7a7387e"
+                ]
+            },
+            {
+                "name": "儿歌大全",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c57_lb_242_600_t10/c57_lb_242_600_t10.m3u8?key=0f2a06793124310bc8499ebf63370c51a"
+                ]
+            },
+            {
+                "name": "倒霉熊",
+                "urls": [
+                    "http://118.26.120.37:55336/tslive/c54_lb_140_600_t10/c54_lb_140_600_t10.m3u8?key=0f2a06793124310bccc587b5da61b57da"
+                ]
+            },
+            {
+                "name": "亲子小游戏",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c56_lb_178_600_t10/c56_lb_178_600_t10.m3u8?key=0b292c335e5837e94ffc1113a2140b54"
+                ]
+            },
+            {
+                "name": "亲子启蒙",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c57_lb_213_600_t10/c57_lb_213_600_t10.m3u8?key=0f2a06793124310bc21adebc9f02a9735"
+                ]
+            },
+            {
+                "name": "倒霉特熊",
+                "urls": [
+                    "https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/87f87ba569c147e3805f80e4844d2de9/1200.m3u8"
+                ]
+            },
+            {
+                "name": "云朵妈妈",
+                "urls": [
+                    "https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/d8ad434c6b08421a927557a4d98da65c/1200.m3u8"
+                ]
+            },
+            {
+                "name": "反转星球",
+                "urls": [
+                    "https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/3ccdecc7d6e341c1920ad4eac5d82f38/1200.m3u8"
+                ]
+            },
+            {
+                "name": "熊大熊二",
+                "urls": [
+                    "https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/1733da751de64e6e910abda889d87a26/1200.m3u8"
+                ]
+            },
+            {
+                "name": "熊大过年",
+                "urls": [
+                    "https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/7ae265653fe149069c3b53e31caaf060/1200.m3u8"
+                ]
+            },
+            {
+                "name": "狮子王國",
+                "urls": [
+                    "https://newcntv.qcloudcdn.com/asp/hls/850/0303000a/3/default/c2e7e767f3144bed959ef20b8b961fe5/850.m3u8"
+                ]
+            },
+            {
+                "name": "金鹰卡通",
+                "urls": [
+                    "http://183.207.249.5:80/PLTV/4/224/3221226303/index.m3u8?",
+                    "http://iptv.tvfix.org/hls/jykttv.m3u8",
+                    "http://39.134.115.163:8080/PLTV/88888910/224/3221225721/index.m3u8"
+                ]
+            },
+            {
+                "name": "动漫秀场",
+                "urls": [
+                    "http://140.207.241.2:8080/live/program/live/dmxchd/4000000/mnf.m3u8"
+                ]
+            },
+            {
+                "name": "卡酷少兒",
+                "urls": [
+                    "http://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8",
+                    "http://ott.js.chinamobile.com/PLTV/4/224/3221226305/index.m3u8",
+                    "http://183.207.248.71/gitv/live1/G_KAKU/G_KAKU",
+                    "http://otttv.bj.chinamobile.com/TVOD/88888888/224/3221226558/1.m3u8"
+                ]
+            },
+            {
+                "name": "南京少兒",
+                "urls": [
+                    "http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8"
+                ]
+            },
+            {
+                "name": "浙江少兒",
+                "urls": [
+                    "http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8?k=1a7559a51eeb880b021619a07f463ac4&t=1577153787"
+                ]
+            },
+            {
+                "name": "福州少儿",
+                "urls": [
+                    "http://live.zohi.tv/video/s10001-sepd-4/index.m3u8"
+                ]
+            },
+            {
+                "name": "深圳少儿",
+                "urls": [
+                    "http://ye23.win/iptv/sztv.php?id=7"
+                ]
+            },
+            {
+                "name": "福建少儿",
+                "urls": [
+                    "rtsp://183.252.166.199/PLTV/88888888/224/3221226120/10000100000000060000000002358082_0.smil"
+                ]
+            },
+            {
+                "name": "动画乐园",
+                "urls": [
+                    "http://211.94.219.178:18080/PLTV/68/224/3221226406/index.m3u8"
+                ]
+            },
+            {
+                "name": "哆啦A梦",
+                "urls": [
+                    "http://106.53.212.251/daili/bili.php?id=1717236"
+                ]
+            },
+            {
+                "name": "哆啦A梦新版",
+                "urls": [
+                    "http://106.53.212.251/daili/bili.php?id=12811814"
+                ]
+            },
+            {
+                "name": "中华小当家",
+                "urls": [
+                    "http://106.53.212.251/daili/bili.php?id=655291"
+                ]
+            },
+            {
+                "name": "国语犬夜叉",
+                "urls": [
+                    "http://106.53.212.251/daili/bili.php?id=23089518"
+                ]
+            },
+            {
+                "name": "成龙历险记",
+                "urls": [
+                    "http://121.12.115.12/tx.rtmp.huya.com/src/1423787836-1423787836-6115122192062611456-2847699128-10057-A-0-1.m3u8"
+                ]
+            },
+            {
+                "name": "海绵宝宝",
+                "urls": [
+                    "http://121.51.14.14/tx.hls.huya.com/src/1423782096-1423782096-6115097538950332416-2847687648-10057-A-0-1_2000.m3u8"
+                ]
+            },
+            {
+                "name": "英文儿歌",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c55_lb_128_600_t10/c55_lb_128_600_t10.m3u8?key=0b292c335e5837e94dd521635e537be73"
+                ]
+            },
+            {
+                "name": "宝宝课堂",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c57_lb_225_600_t10/c57_lb_225_600_t10.m3u8?key=0b292c335e5837e94abaa8d3135e83ce3"
+                ]
+            },
+            {
+                "name": "宝宝巴士",
+                "urls": [
+                    "http://118.26.120.35:55336/tslive/c55_lb_153_720P_t10/c55_lb_153_720P_t10.m3u8?key=0b292c335e5837e947f9409c59228f3e6"
+                ]
+            },
+            {
+                "name": "奥特曼",
+                "urls": [
+                    "http://118.26.120.35:55336/tslive/c57_lb_210_600_t10/c57_lb_210_600_t10.m3u8?key=0b292c335e5837e94abe4b846218bbc95"
+                ]
+            },
+            {
+                "name": "喜羊羊",
+                "urls": [
+                    "http://118.26.120.23:55336/tslive/c55_lb_91_1080P_t10/c55_lb_91_1080P_t10.m3u8?key=0b292c335e5837e943e554ef181bdcec1"
+                ]
+            }
+        ]
+    },
+    {
+        "group": "港澳频道",
+        "channels": [
+            {
+                "name": "凤凰中文",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/fhzw.m3u8",
+                    "http://hkss3.phoenixtv.com/fs/pcc.stream/.m3u8",
+                    "http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8",
+                    "http://223.110.245.138/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8"
+                ]
+            },
+            {
+                "name": "凤凰资讯",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/fhzx.m3u8",
+                    "http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8",
+                    "http://hkss3.phoenixtv.com/fs/pic.stream/.m3u8",
+                    "http://playtv-live.ifeng.com:80/live/06OLEEWQKN4_tv2.m3u8"
+                ]
+            },
+            {
+                "name": "凤凰香港",
+                "urls": [
+                    "http://hkss3.phoenixtv.com/fs/phk.stream/.m3u8",
+                    "http://ott.js.chinamobile.com/TVOD/3/224/3221228060/index.m3u8",
+                    "http://39.134.71.75/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8",
+                    "http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8$JS1080P"
+                ]
+            },
+            {
+                "name": "凤凰电影",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/fhdy.m3u8"
+                ]
+            },
+            {
+                "name": "澳门莲花",
+                "urls": [
+                    "http://nettvpro.live/hls/lotustv.php",
+                    "http://anren.live/HK/BiIOU11uLA.m3u8"
+                ]
+            },
+            {
+                "name": "澳视澳门",
+                "urls": [
+                    "http://103.233.191.133:1935/ch1/ch1.live/playlist.m3u8",
+                    "http://103.233.191.134:1935/ch1/ch1.live/playlist.m3u8",
+                    "http://61.244.22.4/ch1/ch1.live/playelist.m3u8"
+                ]
+            },
+            {
+                "name": "澳视葡文",
+                "urls": [
+                    "http://103.233.191.132:1935/ch2/ch2.live/playlist.m3u8",
+                    "http://103.233.191.133:1935/ch2/ch2.live/playlist.m3u8",
+                    "http://103.233.191.134:1935/ch2/ch2.live/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "澳视卫星",
+                "urls": [
+                    "http://103.233.191.132:1935/ch3/ch3.live/playlist.m3u8",
+                    "http://103.233.191.133:1935/ch3/ch3.live/playlist.m3u8",
+                    "http://103.233.191.134:1935/ch3/ch3.live/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "澳视体育",
+                "urls": [
+                    "http://103.233.191.132:1935/ch4/sport_ch4.live/playlist.m3u8",
+                    "http://103.233.191.133:1935/ch4/sport_ch4.live/playlist.m3u8",
+                    "http://103.233.191.134:1935/ch4/sport_ch4.live/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "澳视资讯",
+                "urls": [
+                    "http://103.233.191.133:1935/ch5/info_ch5.live/playlist.m3u8",
+                    "http://103.233.191.134:1935/ch5/info_ch5.live/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "澳视综艺",
+                "urls": [
+                    "http://103.233.191.133:1935/ch6/hd_ch6.live/playlist.m3u8",
+                    "http://103.233.191.134:1935/ch6/hd_ch6.live/playlist.m3u8",
+                    "http://103.233.191.132:1935/ch6/hd_ch6.live/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "澳门葡语",
+                "urls": [
+                    "http://61.244.22.4/ch2/ch2.live/chunklist_w1632175875.m3u8",
+                    "http://61.244.22.4/ch2/ch2.live/index.m3u8",
+                    "http://61.244.22.5/ch2/ch2.live/chunklist_w1632175875.m3u8"
+                ]
+            },
+            {
+                "name": "澳门卫视",
+                "urls": [
+                    "http://61.244.22.4/ch3/ch3.live/chunklist_w1228316132.m3u8",
+                    "http://61.244.22.4/ch3/ch3.live/playelist.m3u8"
+                ]
+            },
+            {
+                "name": "香港卫视",
+                "urls": [
+                    "http://zhibo.hkstv.tv/livestream/mutfysrq.flv"
+                ]
+            },
+            {
+                "name": "亚美卫视",
+                "urls": [
+                    "http://dcunilive30-lh.akamaihd.net/i/dclive_1@535522/master.m3u8"
+                ]
+            },
+            {
+                "name": "明珠台HD",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/pearl.m3u8",
+                    "http://iptv.tvfix.org/hls/pearl2.m3u8",
+                    "http://iptv.tvfix.org/hls/financenhk.m3u8"
+                ]
+            },
+            {
+                "name": "翡翠台HD",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/jade.m3u8",
+                    "http://iptv.tvfix.org/hls/jade2.m3u8"
+                ]
+            },
+            {
+                "name": "TBVJ2",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/j2.m3u8",
+                    "http://iptv.tvfix.org/hls/j22.m3u8"
+                ]
+            },
+            {
+                "name": "有線新聞",
+                "urls": [
+                    "rtmp://v3948069e.live.126.net/live/8ad6da5302022e3a8b67ccc9848614e/ggbox/index"
+                ]
+            },
+            {
+                "name": "无线新闻",
+                "urls": [
+                    "http://51.222.193.143:10010/1",
+                    "http://iptv.tvfix.org/hls/inews.m3u8"
+                ]
+            },
+            {
+                "name": "无线财经",
+                "urls": [
+                    "http://51.222.193.143:10010/6",
+                    "http://iptv.tvfix.org/hls/finance.m3u8"
+                ]
+            },
+            {
+                "name": "ViuTV",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/viutv.m3u8"
+                ]
+            },
+            {
+                "name": "ViuTV6",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/viutv6.m3u8"
+                ]
+            },
+            {
+                "name": "RTHK31",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/rthk31.m3u8"
+                ]
+            },
+            {
+                "name": "RTHK32",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/rthk32.m3u8"
+                ]
+            },
+            {
+                "name": "香港国际财经台",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/hkibc.m3u8"
+                ]
+            },
+            {
+                "name": "香港开电视",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/opentv.m3u8"
+                ]
+            },
+            {
+                "name": "Now直播台",
+                "urls": [
+                    "http://51.222.193.142:10011/8"
+                ]
+            },
+            {
+                "name": "Now新聞台",
+                "urls": [
+                    "http://51.222.193.142:10011/9"
+                ]
+            },
+            {
+                "name": "天映经典",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/tyjd.m3u8"
+                ]
+            },
+            {
+                "name": "TVB星河",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/tvbxh2.m3u8",
+                    "http://iptv.tvfix.org/hls/tvbxh.m3u8"
+                ]
+            },
+            {
+                "name": "美亚电影",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/mydy.m3u8"
+                ]
+            },
+            {
+                "name": "星空卫视",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/startv.m3u8"
+                ]
+            },
+            {
+                "name": "耀才財經台",
+                "urls": [
+                    "http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "点掌财经",
+                "urls": [
+                    "http://cclive2.aniu.tv/live/anzb.m3u8"
+                ]
+            },
+            {
+                "name": "Animax",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/animax.m3u8"
+                ]
+            },
+            {
+                "name": "Animax(第2声道)",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/animax2.m3u8"
+                ]
+            },
+            {
+                "name": "Hands Up Channel",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/kid.m3u8"
+                ]
+            },
+            {
+                "name": "Thrill",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/thrill.m3u8"
+                ]
+            },
+            {
+                "name": "Discovery",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/discovery.m3u8"
+                ]
+            },
+            {
+                "name": "国家地理",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/natlgeo.m3u8"
+                ]
+            },
+            {
+                "name": "Channel V",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/channelv.m3u8"
+                ]
+            },
+            {
+                "name": "Star Sports",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/starsports.m3u8"
+                ]
+            },
+            {
+                "name": "民視",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv051",
+                    "rtmp://59.124.75.138/sat/tv051"
+                ]
+            },
+            {
+                "name": "台視",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv071",
+                    "rtmp://59.124.75.138/sat/tv071"
+                ]
+            },
+            {
+                "name": "中視",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv091",
+                    "rtmp://59.124.75.138/sat/tv091"
+                ]
+            },
+            {
+                "name": "華視",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv111",
+                    "rtmp://59.124.75.138/sat/tv111"
+                ]
+            },
+            {
+                "name": "TVBS新聞",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv551",
+                    "rtmp://59.124.75.138/sat/tv551"
+                ]
+            },
+            {
+                "name": "TVBS歡樂",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv421",
+                    "rtmp://59.124.75.138/sat/tv421"
+                ]
+            },
+            {
+                "name": "TVBS亚洲台",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/tvbs.m3u8"
+                ]
+            },
+            {
+                "name": "TVBS新闻台",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/tvbsnews.m3u8"
+                ]
+            },
+            {
+                "name": "中天新闻",
+                "urls": [
+                    "http://flv3948069e.live.126.net/live/dabadqdszbtest78612.flv"
+                ]
+            },
+            {
+                "name": "东森新闻",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/dsxw.m3u8"
+                ]
+            },
+            {
+                "name": "東森財經新聞",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv571",
+                    "rtmp://59.124.75.138/sat/tv571"
+                ]
+            },
+            {
+                "name": "東森超視",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv521",
+                    "rtmp://59.124.75.138/sat/tv521"
+                ]
+            },
+            {
+                "name": "东森电影",
+                "urls": [
+                    "http://120.84.96.115:808/hls/32/index.m3u8"
+                ]
+            },
+            {
+                "name": "东森洋片",
+                "urls": [
+                    "http://120.84.96.115:808/hls/33/index.m3u8"
+                ]
+            },
+            {
+                "name": "龙翔时代",
+                "urls": [
+                    "http://120.84.96.115:808/hls/35/index.m3u8"
+                ]
+            },
+            {
+                "name": "三立都会台",
+                "urls": [
+                    "http://59.125.101.187:8522/http/60.251.39.91:8081/hls/70/812/ch39.m3u8"
+                ]
+            },
+            {
+                "name": "緯來育樂",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv701",
+                    "rtmp://59.124.75.138/sat/tv701"
+                ]
+            },
+            {
+                "name": "緯來體育",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv721",
+                    "rtmp://59.124.75.138/sat/tv721"
+                ]
+            },
+            {
+                "name": "ELEVEN1",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv731",
+                    "rtmp://59.124.75.138/sat/tv731"
+                ]
+            },
+            {
+                "name": "ELEVEN2",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv741",
+                    "rtmp://59.124.75.157/sat/md021",
+                    "rtmp://59.124.75.138/sat/tv741",
+                    "rtmp://59.124.75.138/sat/md021"
+                ]
+            },
+            {
+                "name": "緯來日本",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv771",
+                    "rtmp://59.124.75.138/sat/tv771"
+                ]
+            },
+            {
+                "name": "MOMO綜合",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/tv761",
+                    "rtmp://59.124.75.138/sat/tv761"
+                ]
+            },
+            {
+                "name": "ELTA體育2",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/md011",
+                    "rtmp://59.124.75.138/sat/md011"
+                ]
+            },
+            {
+                "name": "博斯網球",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/md031",
+                    "rtmp://59.124.75.138/sat/md031"
+                ]
+            },
+            {
+                "name": "ELTA體育3",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/md041",
+                    "rtmp://59.124.75.138/sat/md041"
+                ]
+            },
+            {
+                "name": "ELTA體育1",
+                "urls": [
+                    "rtmp://59.124.75.157/sat/md051",
+                    "rtmp://59.124.75.138/sat/md051"
+                ]
+            },
+            {
+                "name": "大愛一臺",
+                "urls": [
+                    "https://pulltv1.wanfudaluye.com/live/tv1.m3u8"
+                ]
+            },
+            {
+                "name": "大愛二臺",
+                "urls": [
+                    "https://pulltv2.wanfudaluye.com/live/tv2.m3u8"
+                ]
+            },
+            {
+                "name": "GoodTV 真情部落",
+                "urls": [
+                    "https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch3-2.m3u8"
+                ]
+            },
+            {
+                "name": "GoodTV 经典音乐",
+                "urls": [
+                    "https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch6-2.m3u8"
+                ]
+            },
+            {
+                "name": "GoodTV 健康煮流",
+                "urls": [
+                    "https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch13-2.m3u8"
+                ]
+            },
+            {
+                "name": "GoodTV 共享观点",
+                "urls": [
+                    "https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch19-2.m3u8"
+                ]
+            },
+            {
+                "name": "GoodTV 爱旅行台",
+                "urls": [
+                    "https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch11-2.m3u8"
+                ]
+            }
+        ]
+    },
+    {
+        "group": "电影轮播",
+        "channels": [
+            {
+                "name": "CHC动作电影",
+                "urls": [
+                    "http://v.mp.haue.edu.cn/hls/chcatv.m3u8",
+                    "http://39.134.19.252:6610/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
+                    "http://117.148.179.138/PLTV/88888888/224/3221231580/index.m3u8"
+                ]
+            },
+            {
+                "name": "CHC高清电影",
+                "urls": [
+                    "http://39.134.19.252:6610/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
+                    "http://v.mp.haue.edu.cn/hls/chchd.m3u8"
+                ]
+            },
+            {
+                "name": "CHC家庭影院",
+                "urls": [
+                    "http://39.134.19.252:6610/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
+                    "http://iptv.tvfix.org/hls/chctv.m3u8",
+                    "http://v.mp.haue.edu.cn/hls/chctv.m3u8"
+                ]
+            },
+            {
+                "name": "女神经典",
+                "urls": [
+                    "http://hpull.kktv8.com/livekktv/99350550/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "军旅剧场",
+                "urls": [
+                    "http://hpull.kktv8.com/livekktv/143960119/playlist.m3u8",
+                    "http://117.148.179.145/PLTV/88888888/224/3221231585/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625643517"
+                ]
+            },
+            {
+                "name": "亚洲影院",
+                "urls": [
+                    "http://117.148.179.141/PLTV/88888888/224/3221231516/index.m3u8"
+                ]
+            },
+            {
+                "name": "黑莓电影",
+                "urls": [
+                    "http://183.207.249.14/PLTV/3/224/3221225567/index.m3u8"
+                ]
+            },
+            {
+                "name": "星光影视",
+                "urls": [
+                    "http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "周润发",
+                "urls": [
+                    "http://117.148.179.177/PLTV/88888888/224/3221231709/index.m3u8"
+                ]
+            },
+            {
+                "name": "周星驰",
+                "urls": [
+                    "http://117.148.179.153/PLTV/88888888/224/3221231562/index.m3u8"
+                ]
+            },
+            {
+                "name": "成龙",
+                "urls": [
+                    "http://117.148.179.163/PLTV/88888888/224/3221231687/index.m3u8"
+                ]
+            },
+            {
+                "name": "张国荣",
+                "urls": [
+                    "http://117.148.179.177/PLTV/88888888/224/3221231790/index.m3u8"
+                ]
+            },
+            {
+                "name": "郭富城",
+                "urls": [
+                    "http://117.148.179.152/PLTV/88888888/224/3221231688/index.m3u8"
+                ]
+            },
+            {
+                "name": "吴京",
+                "urls": [
+                    "http://117.148.179.183/PLTV/88888888/224/3221231564/index.m3u8"
+                ]
+            },
+            {
+                "name": "刘德华",
+                "urls": [
+                    "http://117.148.179.154/PLTV/88888888/224/3221231757/index.m3u8"
+                ]
+            },
+            {
+                "name": "杨幂",
+                "urls": [
+                    "http://117.148.179.183/PLTV/88888888/224/3221231556/index.m3u8"
+                ]
+            },
+            {
+                "name": "刘亦菲",
+                "urls": [
+                    "http://117.148.179.165/PLTV/88888888/224/3221231787/index.m3u8"
+                ]
+            },
+            {
+                "name": "古天乐",
+                "urls": [
+                    "http://117.148.179.176/PLTV/88888888/224/3221231645/index.m3u8"
+                ]
+            },
+            {
+                "name": "金庸频道",
+                "urls": [
+                    "http://117.148.179.132/PLTV/88888888/224/3221231477/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625774640"
+                ]
+            },
+            {
+                "name": "喜剧联盟",
+                "urls": [
+                    "http://117.148.179.154/PLTV/88888888/224/3221231621/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/637444830"
+                ]
+            },
+            {
+                "name": "高分影院",
+                "urls": [
+                    "http://117.148.179.182/PLTV/88888888/224/3221231699/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/627198191"
+                ]
+            },
+            {
+                "name": "怀旧老片",
+                "urls": [
+                    "http://117.148.179.146/PLTV/88888888/224/3221231513/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/621640582"
+                ]
+            },
+            {
+                "name": "云上电影院",
+                "urls": [
+                    "http://117.148.179.176/PLTV/88888888/224/3221231565/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625703337"
+                ]
+            },
+            {
+                "name": "每日科幻电影",
+                "urls": [
+                    "http://117.148.179.160/PLTV/88888888/224/3221231568/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625204865"
+                ]
+            },
+            {
+                "name": "殭尸剧场",
+                "urls": [
+                    "http://117.148.179.165/PLTV/88888888/224/3221231742/index.m3u8"
+                ]
+            },
+            {
+                "name": "TVB剧场",
+                "urls": [
+                    "http://117.148.179.157/PLTV/88888888/224/3221231733/index.m3u8"
+                ]
+            },
+            {
+                "name": "新片放映厅",
+                "urls": [
+                    "http://117.148.179.160/PLTV/88888888/224/3221231640/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/619495952"
+                ]
+            },
+            {
+                "name": "盗墓",
+                "urls": [
+                    "http://117.148.179.164/PLTV/88888888/224/3221231652/index.m3u8"
+                ]
+            },
+            {
+                "name": "试胆大会",
+                "urls": [
+                    "http://117.148.179.166/PLTV/88888888/224/3221231672/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/637483721"
+                ]
+            },
+            {
+                "name": "高能烧脑时刻",
+                "urls": [
+                    "http://117.148.179.169/PLTV/88888888/224/3221231504/index.m3u8"
+                ]
+            },
+            {
+                "name": "4K剧场",
+                "urls": [
+                    "http://117.148.179.161/PLTV/88888888/224/3221231624/index.m3u8"
+                ]
+            },
+            {
+                "name": "爱情公寓",
+                "urls": [
+                    "http://117.148.179.160/PLTV/88888888/224/3221231583/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625681367"
+                ]
+            },
+            {
+                "name": "少林剧场",
+                "urls": [
+                    "http://117.148.179.160/PLTV/88888888/224/3221231628/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625526423"
+                ]
+            },
+            {
+                "name": "神探狄仁杰",
+                "urls": [
+                    "http://117.148.179.139/PLTV/88888888/224/3221231634/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625574493"
+                ]
+            },
+            {
+                "name": "黄金剧场",
+                "urls": [
+                    "http://117.148.179.183/PLTV/88888888/224/3221231637/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625155140"
+                ]
+            },
+            {
+                "name": "追剧少女",
+                "urls": [
+                    "http://117.148.179.179/PLTV/88888888/224/3221231643/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/617432318"
+                ]
+            },
+            {
+                "name": "古龙作品集",
+                "urls": [
+                    "http://117.148.179.160/PLTV/88888888/224/3221231657/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/639528313"
+                ]
+            },
+            {
+                "name": "经典贺岁片",
+                "urls": [
+                    "http://117.148.179.159/PLTV/88888888/224/3221231679/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625774662"
+                ]
+            },
+            {
+                "name": "每日荐影",
+                "urls": [
+                    "http://117.148.179.162/PLTV/88888888/224/3221231727/index.m3u8"
+                ]
+            },
+            {
+                "name": "武侠剧场",
+                "urls": [
+                    "http://117.148.179.160/PLTV/88888888/224/3221231763/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/627198822"
+                ]
+            },
+            {
+                "name": "抗战老片",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625542372"
+                ]
+            },
+            {
+                "name": "热剧联播",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/629943613"
+                ]
+            },
+            {
+                "name": "高清大片",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/629943678"
+                ]
+            },
+            {
+                "name": "僵尸剧场",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/627033504",
+                    "http://117.148.179.165/PLTV/88888888/224/3221231742/index.m3u8"
+                ]
+            },
+            {
+                "name": "深夜失眠剧场",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625759558"
+                ]
+            },
+            {
+                "name": "红色谍战剧场",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/634274665",
+                    "http://117.148.179.169/PLTV/88888888/224/3221231627/index.m3u8"
+                ]
+            },
+            {
+                "name": "经典影视速看",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/627198751"
+                ]
+            },
+            {
+                "name": "假期剧场",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/627198692"
+                ]
+            },
+            {
+                "name": "国际剧场",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625542365"
+                ]
+            },
+            {
+                "name": "经典放映厅",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/685902551"
+                ]
+            },
+            {
+                "name": "成龙作品集",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/707671890",
+                    "http://117.148.179.163/PLTV/88888888/224/3221231687/index.m3u8"
+                ]
+            },
+            {
+                "name": "周星驰影院",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/623338112",
+                    "http://117.148.179.153/PLTV/88888888/224/3221231562/index.m3u8"
+                ]
+            },
+            {
+                "name": "刘德华影院",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/659315648",
+                    "http://117.148.179.154/PLTV/88888888/224/3221231757/index.m3u8"
+                ]
+            },
+            {
+                "name": "古天乐影院",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/627198610",
+                    "http://117.148.179.176/PLTV/88888888/224/3221231645/index.m3u8"
+                ]
+            },
+            {
+                "name": "刘亦菲影视展播",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/639528386",
+                    "http://117.148.179.165/PLTV/88888888/224/3221231787/index.m3u8"
+                ]
+            },
+            {
+                "name": "郭富城影院",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/639528330",
+                    "http://117.148.179.152/PLTV/88888888/224/3221231688/index.m3u8"
+                ]
+            },
+            {
+                "name": "张国荣影院",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/707689526",
+                    "http://117.148.179.177/PLTV/88888888/224/3221231790/index.m3u8"
+                ]
+            },
+            {
+                "name": "CUVA频道",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/712723873"
+                ]
+            },
+            {
+                "name": "红楼剧场",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625498432"
+                ]
+            },
+            {
+                "name": "盗墓方法论",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/625525181",
+                    "http://117.148.179.164/PLTV/88888888/224/3221231652/index.m3u8"
+                ]
+            },
+            {
+                "name": "综艺现场",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/621640581"
+                ]
+            },
+            {
+                "name": "萌宠大作战",
+                "urls": [
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/639528180"
+                ]
+            },
+            {
+                "name": "豆瓣电影",
+                "urls": [
+                    "http://epg.112114.xyz/douyu/8770422"
+                ]
+            },
+            {
+                "name": "漫威电影",
+                "urls": [
+                    "http://epg.112114.xyz/douyu/4282654"
+                ]
+            },
+            {
+                "name": "周润发影院",
+                "urls": [
+                    "http://117.148.179.177/PLTV/88888888/224/3221231709/index.m3u8"
+                ]
+            },
+            {
+                "name": "午夜失眠剧场",
+                "urls": [
+                    "http://117.148.179.141/PLTV/88888888/224/3221231516/index.m3u8"
+                ]
+            },
+            {
+                "name": "吴京作品集",
+                "urls": [
+                    "http://117.148.179.183/PLTV/88888888/224/3221231564/index.m3u8"
+                ]
+            },
+            {
+                "name": "葛优作品集",
+                "urls": [
+                    "http://117.148.179.139/PLTV/88888888/224/3221231754/index.m3u8"
+                ]
+            },
+            {
+                "name": "杨幂作品集",
+                "urls": [
+                    "http://117.148.179.183/PLTV/88888888/224/3221231556/index.m3u8"
+                ]
+            },
+            {
+                "name": "SNH48剧场公演",
+                "urls": [
+                    "http://117.148.179.139/PLTV/88888888/224/3221231622/index.m3u8"
+                ]
+            }
+        ]
+    },
+    {
+        "group": "景区直播",
+        "channels": [
+            {
+                "name": "峨眉山普贤菩萨",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/gccntv241-slf01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "宁夏大漠孤烟",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/tjhh01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "映秀新城",
+                "urls": [
+                    "http://gcbsc.v.live.baishancdnx.cn/gc/wcyxxc01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "福建华安土楼",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/syns01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "梅州梅江",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/gllj01_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "河南二七塔",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/xysrf_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "鼓浪屿遥望厦门岛",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/xymlh_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "舟山东极岛",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/djd01_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "福建三坊七巷",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/hhdxg01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "武汉两江四岸",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/emspxps_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "﻿四川达古冰川",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/ztx_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "广西崇左白头猴国家级自然保护区",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "桂林象鼻山",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/ztn_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "广州塔和海心桥",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/ztb_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "全国风景总览",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黟县宏村月沼",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/yxhcyz_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黟县宏村南湖",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/yxhcnh_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黟县西递牌坊",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黟县西递半山亭",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/yxxdbst_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黟县卢村远眺",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/yxlcyt_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "九寨沟",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/wygjt1_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "南昌滕王阁",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/wygjt2_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄山始信峰",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/hssxf_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄山卧云峰",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/hswlf_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄山梦笔生花",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/hsmbsh_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄山排云亭",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/hspyt_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄山西海峡谷",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/hsxhdxg_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄山光明顶",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/hsgmd_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄山信兴道",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/hsyg_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄山平天矼",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/hsptgz_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄山飞来石",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/hsptgy_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "云台山红石硖",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/ytshsx_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "泰山黄岘岭",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/taishan01_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "泰山望人松",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/taishan02_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "泰山大观峰",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/taishan03_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "泰山拱北石",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/taishan04_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "济南千佛山望泉城",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/taishan05_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "泰山玉皇顶",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/taishan06_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "泰山天街",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/taishan07_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "淳安界首渔港码头",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/ytsxzg_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "新疆红山",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/ytsbjy_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "远眺万佛顶",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/emswfs_1/index.m3u8?contentid=2820180516001",
+                    "http://gcalic.v.myalicdn.com/gc/emswfs_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "武夷山玉女峰",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/wysynf_1/index.m3u8?contentid=2820180516001",
+                    "http://gcalic.v.myalicdn.com/gc/wysynf_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "印象大红袍",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/wysyxdhp_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "无锡惠山二茅峰望锡城",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/wysdhpcy_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "张家界迷魂台",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/zjjmht_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "张家界水绕4门",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/zjjsrsm_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "张家界将军列队",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/zjjjjdl_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "张家界阿凡达悬浮山",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/zjjafdxfs_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "凤凰古城",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/fhgcdgm_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "凤凰古城南华山",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/fhgcdnhs_1/index.m3u8?contentid=2820180516001",
+                    "http://gctxyc.liveplay.myqcloud.com/gc/fhgcdnhs_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "宠村月沼",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/yxhcyz_1/index.m3u8?contentid=282018051600"
+                ]
+            },
+            {
+                "name": "重庆开州城区",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/zsslsgc_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄花城水长城1",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/wgw01_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄花城水长城2",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/wgw02_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄花城水长城3",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/wgw03_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "黄花城水长城4",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/wgw04_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "天津滨海新区",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/ljgcszsnkgc_1/index.m3u8?contentid=2820180516001",
+                    "http://gccncc.v.wscdns.com/gc/ljgcwglytylxs_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "天津滨海新区2",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/ljgcwglytylxs_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "吉安井冈山红旗广场",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/ljgcdyhxgjt_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "峨眉云海日出",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/emsarm_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "贡嘎雪山",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/emsyh_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "太原长风商务区",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/lsdfgfl_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "悬空寺全景",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/hsxksqj_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "张家界玻璃桥",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/hsxkssqdzrqj_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "车八岭国家自然保护区",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/hsxkscj_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "伊犁巩留县蝶湖公园",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/tyhjtynl_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "重庆洪崖洞",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/tyhjtys_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "南天一柱",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/tyhjntyz_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "宁夏上滩村",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/tyhjrys_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "雪乡大石碑",
+                "urls": [
+                    "https://gcalic.v.myalicdn.com/gc/mdjxxdsb_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "雪乡梦幻家园",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/mdjxxmhjyxj_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "观景台",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/mdjxxmhjygjt_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "江西武功山云顶",
+                "urls": [
+                    "https://gctxyc.liveplay.myqcloud.com/gc/jyg04_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "嵌雪楼",
+                "urls": [
+                    "https://gccncc.v.wscdns.com/gc/ljgcdsc_1/index.m3u8?contentid=2820180516001"
+                ]
+            },
+            {
+                "name": "﻿丹霞山丹梯铁锁",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/dxsdtts_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "韶音亭",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/dxssyt_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "坝达景点观景台",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/hnttbdjd_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "多依树景点",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/hnttdysjd_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "普高老寨",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/hnttpgsz_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "老虎嘴",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/hnttlhzjd_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "山涧栈道",
+                "urls": [
+                    "http://gcbsc.v.live.baishancdnx.cn/gc/lhssjzd_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "七曲山风景区",
+                "urls": [
+                    "http://gcbsc.v.live.baishancdnx.cn/gc/wysyxdhp_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "山西省宋家沟村",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/wysdhpcy_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "华山",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/hkhs01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "甘坑客家小镇",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/szgk01_1/index.m3u"
+                ]
+            },
+            {
+                "name": "十八洞村",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/sbd01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "桂林象山公园",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/glxs01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "鼋头渚赏樱阁",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/pshdxg01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "峡谷石林",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/pshdxg02_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "内蒙古云计算信息园",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/tyhjntyz_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "宁夏回族上滩村",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/tyhjrys_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "甘肃火星1号基地",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/hgsylztpb_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "六角亭瀑布",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/hgsspzxdpb_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "深圳世界之窗",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/sjzc01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "远眺贡嘎雪山",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/emsyh_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "普贤菩萨铜像",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/emspxps_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "凤凰古城东关门",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/fhgcdgm_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "芦村远眺",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/yxlcyt_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "西递半山亭",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/yxxdbst_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "西递牌坊",
+                "urls": [
+                    "http://gcbsc.v.live.baishancdnx.cn/gc/yxxdpf_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "宏村月沼",
+                "urls": [
+                    "http://gcbsc.v.live.baishancdnx.cn/gc/yxhcyz_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "云台山-小寨沟",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/ytsxzg_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "云台山-百家岩",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/ytsbjy_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "云台山-红石峡",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/ytshsx_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "福建宁德太姥山景区",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/tms01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "崇圣寺三塔中景",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/dlst03_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "崇圣寺三塔湖面",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/dlst02_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "崇圣寺三塔远景",
+                "urls": [
+                    "http://gcbsc.v.live.baishancdnx.cn/gc/dlst01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "西汉南越王博物馆",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/nywbwg01_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "醉美沙滩翡翠湾",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/fcw03_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "漳州六鳌翡翠湾",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "云龙山观景台西",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/ylh04_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "云龙山观景台南",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/ylh03_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "趵突泉",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/btq01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "厦门鼓浪屿",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/gly01_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "玉液湖",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/hkylxs02_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "蓝月谷",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/ylxs12_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "印象实景",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/hkylxs01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "千岛湖",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/caqdh_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "黟县·西递牌坊",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "乌镇·西市河",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/zjwzbblh_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "蓝印花布",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/zjwzlyhb_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "龙形田",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/zjwzlxt_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "乌镇全景",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/zjwzblt_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "鸣沙山山门",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/dhyyqyyq_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "鸣沙山",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/dhyyqst_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "鸣沙山月牙泉",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/dhyyqsm_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "哈尼梯田",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/hnttpgsz_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "青海湖",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/qhh_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "八达岭长城南七楼",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/bgws7_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "八达岭长城北十楼",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/bgwn10_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "嘉峪关关城",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/jyg04_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "四姑娘山幺妹峰",
+                "urls": [
+                    "http://gcbsc.v.live.baishancdnx.cn/gc/sgns01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "隆珠措",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/sgns02_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "九华山拜经台",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/jhs02_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "九华山",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/jhs05_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "九华山花台",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/jhs01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "天界山-玻璃栈道",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/blg03_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "天界山-桃花湾瀑布",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/blg05_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "天山-定海神针",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/xjtcdhsz_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "天山-海西平台",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/xjtchxpt_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "天山-马牙山",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/xjtcmys_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "天山-灯杆山",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/xjtcdgs_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "西线玻璃栈道",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/tms05_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "天门洞",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/tmstmd01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "天空步道",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/tms02_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "云梦仙顶",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/tms04_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "大容山莲花山顶",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/drs01_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "南京玄武湖公园",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/xwh01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "江苏南京牛首山",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/nss01_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "郑东新区千玺广场",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/zdxq01_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "湖南岳阳楼",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/pts01_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "西藏米林拉林铁路",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/zyqcdx01_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "四川凉山邛海景区",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/xcqh01_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "贵阳甲秀楼",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/nxsptdmgychlr_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "宁夏黄河漂流",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/nxspthhpl_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "江苏聚龙湖",
+                "urls": [
+                    "http://gctxyc.liveplay.myqcloud.com/gc/nxsptdmgy_1_md.m3u8"
+                ]
+            },
+            {
+                "name": "大研花巷观景",
+                "urls": [
+                    "http://gcbsc.v.live.baishancdnx.cn/gc/ljgcdyhxgjt_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "内蒙古额济纳胡杨林",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/ljgcdsc_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "五彩池",
+                "urls": [
+                    "http://gccncc.v.wscdns.com/gc/hlwcc_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "黄龙·争艳彩池",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/hlzycc_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "黄龙望乡台",
+                "urls": [
+                    "http://gcksc.v.kcdnvip.com/gc/hlwxt_1/index.m3u8"
+                ]
+            },
+            {
+                "name": "黄龙洗身洞",
+                "urls": [
+                    "http://gcalic.v.myalicdn.com/gc/hlxsd_1/index.m3u8"
+                ]
+            }
+        ]
+    },
+    {
+        "group": "电台之声",
+        "channels": [
+            {
+                "name": "500首华语经典",
+                "urls": [
+                    "http://ls.qingting.fm/live/3412131.m3u8?bitrate=64"
+                ]
+            },
+            {
+                "name": "CRI 环球资讯广播 FM90.5",
+                "urls": [
+                    "http://sk.cri.cn/905.m3u8",
+                    "http://live.xmcdn.com/live/1040/64.m3u8",
+                    "http://ls.qingting.fm/live/24035.m3u8"
+                ]
+            },
+            {
+                "name": "CRI 中文环球广播",
+                "urls": [
+                    "http://sk.cri.cn/hyhq.m3u8",
+                    "http://live.xmcdn.com/live/1043/64.m3u8",
+                    "http://ls.qingting.fm/live/4995.m3u8"
+                ]
+            },
+            {
+                "name": "CRI 南海之声",
+                "urls": [
+                    "http://sk.cri.cn/nhzs.m3u8",
+                    "http://live.xmcdn.com/live/1054/64.m3u8",
+                    "http://ls.qingting.fm/live/62624.m3u8"
+                ]
+            },
+            {
+                "name": "CRI Hit FM FM88.7",
+                "urls": [
+                    "http://sk.cri.cn/887.m3u8",
+                    "http://live.xmcdn.com/live/75/64.m3u8",
+                    "http://ls.qingting.fm/live/1007.m3u8"
+                ]
+            },
+            {
+                "name": "CRI 轻松调频 FM91.5",
+                "urls": [
+                    "http://sk.cri.cn/915.m3u8",
+                    "http://live.xmcdn.com/live/1042/64.m3u8",
+                    "http://ls.qingting.fm/live/1006.m3u8"
+                ]
+            },
+            {
+                "name": "CRI Easy FM – FM91.5",
+                "urls": [
+                    "http://sk.cri.cn/915.m3u8"
+                ]
+            },
+            {
+                "name": "CRI NEWS Plus AM846",
+                "urls": [
+                    "http://sk.cri.cn/am846.m3u8",
+                    "http://ls.qingting.fm/live/4584.m3u8"
+                ]
+            },
+            {
+                "name": "CRI NEWS Plus AM1008",
+                "urls": [
+                    "http://sk.cri.cn/am1008.m3u8",
+                    "http://ls.qingting.fm/live/4584.m3u8"
+                ]
+            },
+            {
+                "name": "CRI Sydney",
+                "urls": [
+                    "http://ls.qingting.fm/live/4584.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 经济之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/1066/64.m3u8",
+                    "http://ls.qingting.fm/live/387.m3u8",
+                    "http://ngcdn002.cnr.cn/live/jjzs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 中国之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/1065/64.m3u8",
+                    "http://ls.qingting.fm/live/386.m3u8",
+                    "http://ngcdn001.cnr.cn/live/zgzs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 音乐之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/12/64.m3u8",
+                    "http://ls.qingting.fm/live/388.m3u8",
+                    "http://ngcdn003.cnr.cn/live/yyzs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 经典音乐广播 101.8",
+                "urls": [
+                    "http://live.xmcdn.com/live/13/64.m3u8",
+                    "http://ls.qingting.fm/live/389.m3u8",
+                    "http://ngcdn004.cnr.cn/live/dszs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 中华之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/14/64.m3u8",
+                    "http://ls.qingting.fm/live/390.m3u8",
+                    "http://ngcdn005.cnr.cn/live/zhzs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 神州之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/15/64.m3u8",
+                    "http://ls.qingting.fm/live/391.m3u8",
+                    "http://ngcdn006.cnr.cn/live/szzs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 华夏之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/16/64.m3u8",
+                    "http://ls.qingting.fm/live/392.m3u8",
+                    "http://ngcdn007.cnr.cn/live/hxzs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 香港之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/44/64.m3u8",
+                    "http://ls.qingting.fm/live/4986.m3u8",
+                    "http://ngcdn008.cnr.cn/live/xgzs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 民族之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/17/64.m3u8",
+                    "http://ls.qingting.fm/live/394.m3u8",
+                    "http://ngcdn009.cnr.cn/live/mzzs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 文艺之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/38/64.m3u8",
+                    "http://ls.qingting.fm/live/395.m3u8",
+                    "http://ngcdn010.cnr.cn/live/wyzs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 老年之声",
+                "urls": [
+                    "http://live.xmcdn.com/live/39/64.m3u8",
+                    "http://ls.qingting.fm/live/396.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 中国乡村之声",
+                "urls": [
+                    "http://ngcdn017.cnr.cn/live/xczs48/index.m3u8",
+                    "http://live.xmcdn.com/live/46/64.m3u8",
+                    "http://ls.qingting.fm/live/5039.m3u8",
+                    "http://ngcdn017.cnr.cn/live/xczs/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 哈语广播",
+                "urls": [
+                    "http://live.xmcdn.com/live/1396/64.m3u8",
+                    "http://ngcdn025.cnr.cn/live/hygb/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 藏语广播",
+                "urls": [
+                    "http://ls.qingting.fm/live/4988.m3u8",
+                    "http://ngcdn012.cnr.cn/live/zygb/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 维语广播",
+                "urls": [
+                    "http://live.xmcdn.com/live/40/64.m3u8",
+                    "http://ls.qingting.fm/live/4988.m3u8",
+                    "http://ngcdn013.cnr.cn/live/wygb/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 娱乐广播",
+                "urls": [
+                    "http://live.xmcdn.com/live/42/64.m3u8",
+                    "http://ls.qingting.fm/live/398.m3u8",
+                    "http://ngcdn014.cnr.cn/live/ylgb/index.m3u8"
+                ]
+            },
+            {
+                "name": "CNR 中国交通广播",
+                "urls": [
+                    "http://live.xmcdn.com/live/45/64.m3u8",
+                    "http://ls.qingting.fm/live/4985.m3u8",
+                    "http://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8"
+                ]
+            }
+        ]
+    },
+    {
+        "group": "音乐舞蹈",
+        "channels": [
+            {
+                "name": "Channel V",
+                "urls": [
+                    "http://iptv.tvfix.org/hls/channelv.m3u8"
+                ]
+            },
+            {
+                "name": "Soda东南亚之旅",
+                "urls": [
+                    "https://vdse.bdstatic.com//b6295e9776c2cd347716fc2447e27fac.mp4"
+                ]
+            },
+            {
+                "name": "SNH48剧场",
+                "urls": [
+                    "http://117.148.179.139/PLTV/88888888/224/3221231622/index.m3u8",
+                    "http://112.74.200.9:88/tv000000/m3u8.php?/migu/617432328"
+                ]
+            },
+            {
+                "name": "音乐榜",
+                "urls": [
+                    "http://txtest-xp2p.p2p.huya.com/src/1099531740260-1099531740260-86382461021323264-2199063603976-10057-A-0-1.xs"
+                ]
+            },
+            {
+                "name": "音乐小石榴",
+                "urls": [
+                    "http://txtest-xp2p.p2p.huya.com/src/1199512344405-1199512344405-5224693802798678016-2399024812266-10057-A-0-1.xs"
+                ]
+            },
+            {
+                "name": "音乐Retro",
+                "urls": [
+                    "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "音乐MusicTop",
+                "urls": [
+                    "http://live-edge01.telecentro.net.ar/live/smil:musictop.smil/chunklist_w538311571_b364000_sleng.m3u8"
+                ]
+            },
+            {
+                "name": "M2音乐",
+                "urls": [
+                    "http://live.m2.tv/hls3/stream.m3u8"
+                ]
+            },
+            {
+                "name": "M20TV",
+                "urls": [
+                    "http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-b.m3u8"
+                ]
+            },
+            {
+                "name": "意大利V2",
+                "urls": [
+                    "http://de1se01.v2beat.live/playlist.m3u8"
+                ]
+            },
+            {
+                "name": "法国时尚",
+                "urls": [
+                    "http://lb.streaming.sk/fashiontv/stream/chunklist.m3u8",
+                    "http://lb.streaming.sk/fashiontv/stream/chunklist_w1702070444.m3u8"
+                ]
+            },
+            {
+                "name": "imodeTV",
+                "urls": [
+                    "http://juyunlive.juyun.tv/live/24950198.m3u8"
+                ]
+            },
+            {
+                "name": "俄罗斯HOBOK",
+                "urls": [
+                    "http://hls-video01.cdnvideo.ru/video01/smil:video01.smil/chunklist_b4128000.m3u8"
+                ]
+            },
+            {
+                "name": "欧美动感DJ",
+                "urls": [
+                    "https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgyMqg4gUo-uSR5AU.mp4"
+                ]
+            },
+            {
+                "name": "韩国动感舞曲",
+                "urls": [
+                    "https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgr-2n9AUoqsakNg.mp4"
+                ]
+            },
+            {
+                "name": "欧美高清动感歌曲1",
+                "urls": [
+                    "https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgianW4gUoj9-Aaw.mp4"
+                ]
+            },
+            {
+                "name": "欧美高清动感歌曲2",
+                "urls": [
+                    "https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgpdia4gUo7oWfiAE.mp4"
+                ]
+            }
+        ]
+    }
+    
+]
